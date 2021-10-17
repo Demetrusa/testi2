@@ -1,0 +1,19 @@
+body{
+    border: 10px solid rgb(92 122 236 / 67%)
+}
+h1{
+    font-size: 50px;
+    font-family:;
+    padding: 20px 0 20px 0;
+}
+.main-box{
+    margin-left: 20px;
+    width: 1000px;
+}
+.image-warper{
+    max-width: 600px;
+    width: 100%;
+}
+.main-box p{
+    padding: 15px 0 15px 0;
+}
