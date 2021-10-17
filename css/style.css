@@ -3,7 +3,7 @@ body{
 }
 h1{
     font-size: 50px;
-    font-family:;
+    font-family: 'Roboto', sans-serif;
     padding: 20px 0 20px 0;
 }
 .main-box{
@@ -16,4 +16,27 @@ h1{
 }
 .main-box p{
     padding: 15px 0 15px 0;
+}
+.frame{
+    max-width: 918px;
+    width: 100%;
+}
+.button{
+    padding: 0;
+    padding: 10px 30px;
+    background: rgb(0, 102, 255);
+    border-radius: 10px;
+    color: white;
+}
+input{
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+label{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+select{
+    padding-bottom: 5px;
+    margin-bottom: 10px;
 }

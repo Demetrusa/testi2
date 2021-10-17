@@ -11,12 +11,15 @@
     <meta name="author" content="Demetre Kurdadze">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">    
 </head>
 <body>
     <div class="main-box">
-        <h1>Gym Membership form</h1>
+        <h1>Gym Membership Form</h1>
         <img class="image-warper" src="image/image04.jpeg" alt="image04">
-        <p>Want to become a member our Gym? Then start by filling our form to complate registration. WE will contact you about your membership card.</p>
+        <p>Want to become a member our Gym? Then start by filling our form to complate registration. We will contact you about your membership card.</p>
         <form action="">
             <label for="name">Name</label><br>
             <input class="frame" type="text" id="fname" name="fname" value="First"><br>
@@ -30,6 +33,45 @@
             <input class="frame" type="text" id="weight" name="weight"><br>
             <label for="weight">Desired weight(lbs)</label><br>
             <input class="frame" type="text" id="weight" name="weight"><br>
+            <label for="height">Height</label><br>
+            <input class="frame" type="text" name="Height" id="Height"><br>
+            <label for="Home">Home Adress</label><br>
+            <input class="frame" type="text" id="STadress" name="Home" value="street address"><br>
+            <input class="frame" type="text" id="City" name="Home" value="City"><br>
+            <!-- <input class="frame" type="text" id="Country" name="Home" value="Country"><br> -->
+            <select class="frame" name="Country" id="Country">
+            <option value="country">Select Country</option>
+            <option value="Usa">Usa</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+            <option value="France">France</option>
+            <option value="Spain">Spain</option>
+            <option value="Russia">Russia</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Japan">Japan</option>
+            <option value="Korea">Korea</option>
+            <option value="China">China</option>
+            <option value="other">other</option>  
+            </select><br>
+            <label for="email">Email</label><br>
+            <input class="frame" type="email" id="email" name="email"><br>
+            <label for="phone">Phone</label><br>
+            <input class="frame" type="number" name="Phone" id="Phone"><br>
+            <label for="Gym">Have you been in a Gym before?</label><br>
+            <input type="radio" id="Gym" name="Gym">
+            <label for="Gym">Yes</label>
+            <input type="radio" id="Gym" name="Gym">
+            <label for="Gym">No</label><br>
+            <label for="Membership">Membership Type</label><br>
+            <input type="checkbox" id="Membership" name="Membership">
+            <label for="Membership">Regular</label>
+            <input type="checkbox" id="Membership" name="Membership">
+            <label for="Membership">Pro</label>
+            <input type="checkbox" id="Membership" name="Membership">
+            <label for="Membership">Vip</label><br>
+            <label for="comment" id="comment">Add comment</label><br>
+            <textarea name="comment" id="" cols="120" rows="5"></textarea>
+            <button class="button" type="submit">Apply</button>
         </form>
     </div>
 </body>
